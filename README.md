@@ -15,3 +15,9 @@ ssh -A -i <path-to-private-key> ubuntu@<bastion-host-ip>
 sudo apt update
 sudo apt install -y ansible
 ```
+
+## clone ansible playbook repository
+```bash
+git clone <repository-url>
+cd <repository-directory>
+```

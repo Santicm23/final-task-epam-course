@@ -4,3 +4,6 @@
 [submodule "devops-rampup"]
 	path = devops-rampup
 	url = https://github.com/Santicm23/devops-rampup.git
+[submodule "ansible"]
+	path = ansible
+	url = https://github.com/Santicm23/final-task-epam-course-ansible.git
