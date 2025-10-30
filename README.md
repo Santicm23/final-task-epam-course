@@ -1,8 +1,13 @@
 # Installation steps
 
-## Apply Terraform Configuration
+## Select workspace
 ```bash
 cd terraform
+terraform workspace select <environment>
+```
+
+## Apply Terraform Configuration
+```bash
 terraform apply -auto-approve -var-file="<environment>.tfvars"
 ```
 
